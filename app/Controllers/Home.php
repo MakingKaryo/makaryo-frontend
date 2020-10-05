@@ -4,7 +4,11 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('home');
+		return view('pages/home');
+	}
+
+	public function project(){
+		return view('pages/project');
 	}
 
 	//--------------------------------------------------------------------
