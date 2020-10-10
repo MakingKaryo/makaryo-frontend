@@ -10,6 +10,11 @@ class Home extends BaseController
 	public function project(){
 		return view('pages/project');
 	}
+	
+	public function create_project()
+	{
+		return view('pages/create_project');
+	}
 
 	//--------------------------------------------------------------------
 

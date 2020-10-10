@@ -333,6 +333,8 @@
             </div>
           </div>
 
+          
+<!-- 
           <div class="col-lg-3">
             <div class="left_sidebar_area">
               <aside class="left_widgets p_filter_widgets">
@@ -429,7 +431,7 @@
                     </div>
                   </div>
                 </div>
-              </aside>
+              </aside> -->
             </div>
           </div>
         </div>

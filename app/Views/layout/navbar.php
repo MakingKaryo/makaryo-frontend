@@ -61,7 +61,7 @@
                         <a class="nav-link" href="project">Browse Project</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="single-product.html">Create Project</a>
+                        <a class="nav-link" href="create_project">Create Project</a>
                       </li>
                     </ul>
                   </li>
@@ -109,10 +109,17 @@
                     </a>
                   </li>
 
-                  <li class="nav-item">
-                    <a href="#" class="icons">
-                      <i class="ti-user" aria-hidden="true"></i>
-                    </a>
+                  <li class="nav-item submenu dropdown">
+                    <a href="#" class="icons nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                      aria-expanded="false"><i class="ti-user"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Join</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="single-blog.html">Sign in</a>
+                      </li>
+                    </ul>
                   </li>
 
                   <li class="nav-item">

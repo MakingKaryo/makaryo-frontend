@@ -1,5 +1,6 @@
 <?php namespace Config;
 
+use CodeIgniter\Debug\Toolbar\Collectors\Routes;
 use CodeIgniter\Router\Router;
 
 // Create a new instance of our RouteCollection class.
@@ -35,6 +36,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/home', 'Home::index');
 $routes->get('/project', 'Home::project');
+$routes->get('/create_project', 'Home::create_project');
 
 /**
  * --------------------------------------------------------------------
