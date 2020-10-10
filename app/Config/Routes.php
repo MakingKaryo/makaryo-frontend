@@ -37,6 +37,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/home', 'Home::index');
 $routes->get('/project', 'Home::project');
 $routes->get('/create_project', 'Home::create_project');
+$routes->get('/sell_services', 'Home::sell_services');
 
 /**
  * --------------------------------------------------------------------

@@ -16,6 +16,11 @@ class Home extends BaseController
 		return view('pages/create_project');
 	}
 
+	public function sell_services()
+	{
+		return view('pages/sell_services');
+	}
+
 	//--------------------------------------------------------------------
 
 }
